@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 a {
@@ -12,7 +11,7 @@ a {
 }
 
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 0px;
   height: 5px;
 }
 
@@ -36,7 +35,7 @@ a {
 }
 
 .react-player {
-  height: 77vh !important;
+  height: 67vh !important;
   width: 100% !important;
 }
 
